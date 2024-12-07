@@ -495,7 +495,7 @@
             <h1>CareerStream</h1>
              <div class="user-info">
                 <span><%= session.getAttribute("adminName") != null ? session.getAttribute("adminName") : "Admin" %></span>
-                <button class="logout-btn" onclick="logout()">Logout</button>
+                <button class="logout-btn" onclick="window.location.href='/admin/logout'">Logout</button>
             </div>
             </header>
             <div class="card">
